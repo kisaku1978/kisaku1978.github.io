@@ -5,9 +5,9 @@ description: Who I am
 sitemap: false
 ---
 
-# About
+# 關於`淺我`
 -------
 
-I'm Daniel Lanza.
 
-This is my personal blog and I like to write codes and short notes on here. If you find errors on my posts or have any suggestions, please drop some lines at comment section.
+建置中...
+

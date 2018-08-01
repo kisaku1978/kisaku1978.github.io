@@ -3,7 +3,7 @@ layout: post
 title: "How to Make A Tryit Editor Like W3school"
 description: "Make a code like w3school Tryit editor. "
 date: 2017-12-28 09:00:00+0100
-date_modified: 2017-12-28 12:00:00+0100
+date_modified: 2017-12-28 12:00:00+0800
 categories: [web]
 tags:
   - w3school

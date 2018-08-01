@@ -31,14 +31,14 @@ comments:
   disqus: enhanceralph
 
 # Build settings
-# paginate: 10 # the number of post per page
-paginate_multiple:
+ paginate: 10 # the number of post per page
+#paginate_multiple:
 #  - paginate: 10
 #    paginate_path: '/web/page:num/'
 #    sub_dir: '/web'
-  - paginate: 10
-    paginate_path: '/page:num/'
-    sub_dir: '/'
+#  - paginate: 10
+#    paginate_path: '/page:num/'
+#    sub_dir: '/'
 
 highlighter: rouge
 markdown: kramdown

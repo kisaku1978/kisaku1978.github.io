@@ -9,12 +9,12 @@
 title: 淺我的自我開發
 author:
   name: 淺我
-  twitter: kisaku1908
-  github: kisaku1908
+  twitter: kisaku1978
+  github: kisaku1978
 description: >- # this means to ignore newlines until "baseurl:"
   程式語言的學習，以及一些隨寫紀錄。
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://kisaku1908.github.io" # the base hostname & protocol for your site
+url: "https://kisaku1978.github.io" # the base hostname & protocol for your site
 
 logo:
   path: "/img/favicons/android-chrome-192x192.png"

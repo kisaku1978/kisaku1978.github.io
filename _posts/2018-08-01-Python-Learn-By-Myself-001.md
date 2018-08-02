@@ -9,6 +9,9 @@ tags:
   - python
 author: kisaku
 image:
+  path: /img/2018-08-01-Python-Learn-By-Myself-001/hello.jpg
+  width: 1280
+  height: 777
 comments: true
 ---
 

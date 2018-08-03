@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Markdown 基本語法測試"
-description: "測試 Markdown 基本語法測試"
+description: "Markdown 基本語法測試"
 date: 2018-08-02 13:43:00+0800
 categories: [markdown]
 tags:
@@ -14,7 +14,7 @@ image:
 comments: true
 ---
 
-###  1. # 用法
+###  # 用法
 
   # 有幾個，代表 Hn，例如：# 代表 H1，## 代表 H2，以此類推，##### 代表 H5。
 
@@ -33,7 +33,7 @@ comments: true
 ```
 輸出：
 
-<div markdown="1"  class="d-block bg-info"> 
+<div markdown="1"  class="d-block bg-output"> 
 #       H1 標題 
 ##      H2 標題 
 ###     H3 標題 
@@ -44,7 +44,7 @@ comments: true
 
 ***
 
-###  2. - 和 = 
+###  - 和 = 
 
 語法：
 
@@ -62,7 +62,7 @@ comments: true
 
 輸出：
 
-<div markdown="1"  class="d-block bg-info"> 
+<div markdown="1"  class="d-block bg-output"> 
 減號標題為 H2
 ---
 
@@ -72,7 +72,7 @@ comments: true
 
 ***
 
-### 3. 分隔線
+### 分隔線
 
 ```vim
 
@@ -90,7 +90,7 @@ comments: true
 
 輸出：
 
-<div markdown="1"  class="d-block bg-info"> 
+<div markdown="1"  class="d-block bg-output"> 
 
 * * *
 
@@ -107,4 +107,13 @@ comments: true
 <br/>
 
 ***
+
+### Code 程式碼區塊
+
+
+
+
+
+
+
 

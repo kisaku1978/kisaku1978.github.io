@@ -14,13 +14,13 @@ layout: default
     {% endif %}
     <div class="card-body">
       {% if post.title %}
-      <a href="{{ post.url | prepend: site.baseurl }}"><h4 class="card-title">{{ post.title }}</h4></a></p>
+      <a href="{{ post.url | prepend: site.baseurl }}" class="text-info"><h4 class="card-title">{{ post.title }}</h4></a></p>
       {% endif %}
       {% if post.description %}
       <p class="card-text">{{ post.description }}</p>
       {% endif %}
       {% if post.url %}
-      <p class="text-center"><a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-primary">Read more</a></p>
+      <p class="text-center"><a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-info">Read more</a></p>
       {% endif %}
       <nav class="nav">
       {% if post.date %}
@@ -38,23 +38,23 @@ layout: default
   <ul class="pagination">
     {% if paginator.previous_page %}
     <li class="page-item active">
-      <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl }}" rel="prev">&laquo;</a>
+      <a class="page-link text-info" href="{{ paginator.previous_page_path | prepend: site.baseurl }}" rel="prev">&laquo;</a>
     </li>
     {% else %}
     <li class="page-item disable">
-      <span class="page-link">&laquo;</span>
+      <span class="page-link text-info">&laquo;</span>
     </li>
     {% endif %}
     <li class="page-item disable">
-      <span class="page-link">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+      <span class="page-link text-info">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
     </li>
     {% if paginator.next_page %}
     <li class="page-item active">
-      <a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl }}" rel="prev">&raquo;</a>
+      <a class="page-link text-info" href="{{ paginator.next_page_path | prepend: site.baseurl }}" rel="prev">&raquo;</a>
     </li>
     {% else %}
     <li class="page-item disable">
-      <span class="page-link">&raquo;</span>
+      <span class="page-link text-info">&raquo;</span>
     </li>
     {% endif %}
   </ul>

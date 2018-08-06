@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Python自學(一) - Hello world!!"
+title: "Python - Hello world!!"
 description: "第一個Python程式，當然是Hello World啦!"
 date: 2018-08-01 05:24:00+0800
 date_modified: 2018-08-01 05:24:00+0800

@@ -2,7 +2,7 @@
 layout: post
 title: "Markdown 基本語法測試"
 description: "Markdown 基本語法測試"
-date: 2018-08-02 13:43:00+0800
+date: 2018-09-08 19:08:00+0800
 categories: [markdown]
 tags:
   - markdown
@@ -109,10 +109,32 @@ comments: true
 ***
 
 ### Code 程式碼區塊
+to be continued...
 
-
-
-
+### 區塊引言
+```vim
+> 測試區塊引言  
+> fbsbfhbsfbs   
+> xxxfjenfnjs  
+> fbsbfsbh   
+> fnsjbfsbjf   
+{:.bg-info}
+> 測試區塊引言  
+> fbsbfhbsfbs  
+> fnsjbfsbjf  
+{:.bg-info}
+```
+輸出：
+> 測試區塊引言  
+> fbsbfhbsfbs   
+> xxxfjenfnjs  
+> fbsbfsbh   
+> fnsjbfsbjf   
+{:.bg-info}
+> 測試區塊引言  
+> fbsbfhbsfbs  
+> fnsjbfsbjf  
+{:.bg-info}
 
 
 

@@ -1,2 +1,6 @@
-#!/bin/sh
-bundle exec jekyll serve --host 10.10.10.79 --port 1234
+#!/bin/bash
+ip=$(ifconfig eth0 | grep inet | awk '{print $2}' | sed 's/addr://')
+port=4444
+work=/work/jekyll/kisaku1978.github.io
+cd ${work}
+bundle exec jekyll serve --host ${ip} --port ${port}

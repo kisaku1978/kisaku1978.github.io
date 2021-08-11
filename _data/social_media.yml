@@ -1,12 +1,11 @@
 - name: Twitter
-  url: https://twitter.com/dalanzg
+  url: https://twitter.com/kisaku1978
   font_awesome: fa-twitter
 - name: Gitgub
-  url: https://github.com/dalanzg
-  font_awesome: fa-github
+  url: https://github.com/kisaku1978
 - name: LinkedIn
-  url: https://www.linkedin.com/in/danilanza
+  url: https://www.linkedin.com/in/ralph-wang-454a6330
   font_awesome: fa-linkedin
 - name: Flickr
-  url: https://www.flickr.com/photos/dalanz/
+  url: https://www.flickr.com/photos/kisaku1978/
   font_awesome: fa-flickr
